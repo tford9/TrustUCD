@@ -1,4 +1,6 @@
 from pathos.multiprocessing import ProcessingPool as Pool
+from tqdm import tqdm
+
 import os
 import sys
 import zstandard as zstd
@@ -6,7 +8,6 @@ import zstandard as zstd
 
 def multi_proc(input_file):
 	import json
-	from tqdm import tqdm
 
 	def read_whole_zst(file_name):
 		# Create a Zstandard decompressor
@@ -30,12 +31,8 @@ def multi_proc(input_file):
 
 	for line, fh in tqdm(read_lines_zst(input_file[0])):
 		obj = json.loads(line)
-		# break
 		if obj['subreddit'] in ["KingkillerChronicle", "PatrickRothfuss", "brandonsanderson", "Stormlight_Archive"]:
 			_output_data.append(obj)
-			# break
-	# print(_output_data)
-	# output = [obj.__dict__ for obj in _output_data]
 
 	# Write list to JSON file
 	fn = os.path.basename(input_file[0]).split('/')[-1]
@@ -85,9 +82,6 @@ for subdir, dirs, files in os.walk(input_folder):
 		if input_path.endswith(".zst"):
 			if "2020" in input_path or "2021" in input_path or "2022" in input_path or "2023" in input_path:
 				input_files.append([input_path])
-
-# log.info(f"Processing {len(input_files)} files of {(total_size / (2**30)):.2f} gigabytes")
-# output_file = open(sys.argv[2], "w")
 
 print(input_files)
 
