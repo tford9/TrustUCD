@@ -1,60 +1,36 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: v1
+kind: Pod
 metadata:
   name: reddit-analysis
   labels:
     app: reddit-analysis
   namespace: fais-1
 spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: reddit-analysis
-  template:
-    metadata:
-      labels:
-        app: reddit-analysis
-    spec:
-      securityContext:
-        runAsUser: 260433
-        runAsGroup: 50038
-      containers:
-        - name: trust-ucd
-          image: ghcr.io/d8a-science/github_runners:main  # image name
-          imagePullPolicy: Always
-          env:
-            - name: GITHUB_URL
-              value: "https://github.com/D8A-SCIENCE/Comp-HuSim"  # Replace with GitHub org or repo
-            - name: GITHUB_TOKEN
-              valueFrom:
-                secretKeyRef:
-                  name: github-token
-                  key: GITHUB_TOKEN
-          resources:
-            requests:
-              memory: "16Gi"
-              cpu: "32"
-              nvidia.com/gpu: '1'
-            limits:
-              memory: "16Gi"
-              cpu: "32"
-              nvidia.com/gpu: '1'
-          volumeMounts:
-            - name: home
-              mountPath: /app
-          stdin: true
-          tty: true
-      imagePullSecrets:
-        - name: ghcr-secret
-      volumes:
+  securityContext:
+    runAsUser: 260433
+    runAsGroup: 50038
+  containers:
+    - name: trust-ucd
+      image: ghcr.io/tford9/trustucd:master  # image name
+      imagePullPolicy: IfNotPresent
+      resources:
+        requests:
+          memory: "32Gi"
+          cpu: "16"
+          nvidia.com/gpu: '1'
+        limits:
+          memory: "32Gi"
+          cpu: "16"
+          nvidia.com/gpu: '1'
+      volumeMounts:
         - name: home
-          emptyDir: /sciclone/home/twford/repos/reddit
-
----
-apiVersion: v1
-kind: Secret
-metadata:
-  name: github-token
-type: Opaque
-data:
-  GITHUB_TOKEN: QUJSWDRJVkJOVVJPSFA0SlE3TU1JUFRIMkdXTUM=
+          mountPath: "/app"
+      stdin: true
+      tty: true
+  imagePullSecrets:
+    - name: ghcr-secret
+  volumes:
+  - name: home
+    nfs:
+      server: 128.239.56.166
+      path: /sciclone/home/twford/repos/reddit

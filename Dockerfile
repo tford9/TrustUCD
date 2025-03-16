@@ -10,4 +10,4 @@ COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Set default command (optional)
-CMD ["/bin/bash"]
+#CMD ["/bin/bash"]
