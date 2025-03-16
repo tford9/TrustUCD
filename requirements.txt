@@ -1,0 +1,12 @@
+lxml
+networkx
+nltk
+matplotlib
+wordcloud
+tqdm
+ipywidgets
+widgetsnbextension
+pandas-profiling
+pathos
+transformers
+cugraph-cu12 --extra-index-url=https://pypi.nvidia.com

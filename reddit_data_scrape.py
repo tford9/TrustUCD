@@ -22,8 +22,7 @@ nltk.download([
 
 from transformers import pipeline
 
-directory_path = "C:\\Users\\Trenton W. Ford\\PycharmProjects\\TrustUCD\\data\\"  # Replace with your directory path
-
+directory_path = "/sciclone/home/twford/repos/reddit/data/"  # Replace with your directory path
 
 def read_json_file(file_path):
     with open(file_path, 'r') as file:
