@@ -1,5 +1,4 @@
-# Use RAPIDS AI base image
-FROM rapidsai/base:latest
+FROM rapidsai/base:25.04a-cuda12.8-py3.10-amd64
 
 # Set the working directory inside the container
 WORKDIR /app
