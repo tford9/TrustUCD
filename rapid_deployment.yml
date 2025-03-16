@@ -1,0 +1,37 @@
+# rapids-notebook.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: rapids-notebook
+  labels:
+    app: rapids-notebook
+spec:
+  type: NodePort
+  ports:
+    - port: 8888
+      name: http
+      targetPort: 8888
+      nodePort: 30002
+  selector:
+    app: rapids-notebook
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: rapids-notebook
+  labels:
+    app: rapids-notebook
+spec:
+  securityContext:
+    runAsUser: 260433 # run id command in terminal to get your UID
+    runAsGroup: 50038
+    fsGroup: 1134
+  containers:
+    - name: rapids-notebook
+      image: "nvcr.io/nvidia/rapidsai/notebooks:25.02-cuda12.8-py3.12"
+      resources:
+        limits:
+          nvidia.com/gpu: 1
+      ports:
+        - containerPort: 8888
+          name: notebook
