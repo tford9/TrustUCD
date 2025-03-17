@@ -9,3 +9,4 @@ widgetsnbextension
 pandas-profiling
 pathos
 transformers
+torch

@@ -1,0 +1,324 @@
+RS_2021-10.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.084
+neutral sentiment: 0.86
+positive sentiment:  0.056
+Device set to use cuda:0
+RS_2021-09.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.12411347517730496
+neutral sentiment: 0.8014184397163121
+positive sentiment:  0.07446808510638298
+Device set to use cuda:0
+RS_2021-07.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.14184397163120568
+neutral sentiment: 0.7872340425531915
+positive sentiment:  0.07092198581560284
+Device set to use cuda:0
+RS_2021-11.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.09206349206349207
+neutral sentiment: 0.819047619047619
+positive sentiment:  0.08888888888888889
+RS_2021-03.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.11858974358974358
+neutral sentiment: 0.7692307692307693
+positive sentiment:  0.11217948717948718
+Device set to use cuda:0
+Device set to use cuda:0
+RS_2021-02.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.10119047619047619
+neutral sentiment: 0.8035714285714286
+positive sentiment:  0.09523809523809523
+RS_2021-08.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.12158054711246201
+neutral sentiment: 0.8085106382978723
+positive sentiment:  0.06990881458966565
+RS_2021-04.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.12721893491124261
+neutral sentiment: 0.8017751479289941
+positive sentiment:  0.07100591715976332
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+RS_2021-01.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.08426966292134831
+neutral sentiment: 0.8061797752808989
+positive sentiment:  0.10955056179775281
+Device set to use cuda:0
+RS_2021-06.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.05974025974025974
+neutral sentiment: 0.8675324675324675
+positive sentiment:  0.07272727272727272
+Device set to use cuda:0
+RS_2020-01.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.09330143540669857
+neutral sentiment: 0.8253588516746412
+positive sentiment:  0.08133971291866028
+Device set to use cuda:0
+RS_2021-05.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.11246943765281174
+neutral sentiment: 0.7970660146699267
+positive sentiment:  0.09046454767726161
+Device set to use cuda:0
+RS_2020-01.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.10844748858447488
+neutral sentiment: 0.7465753424657534
+positive sentiment:  0.1449771689497717
+Device set to use cuda:0
+RS_2021-11.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.12170753860127158
+neutral sentiment: 0.7420526793823796
+positive sentiment:  0.1362397820163488
+Device set to use cuda:0
+RS_2021-07.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.10901287553648069
+neutral sentiment: 0.7742489270386266
+positive sentiment:  0.1167381974248927
+Device set to use cuda:0
+RS_2021-10.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.12305168170631665
+neutral sentiment: 0.7555373256767842
+positive sentiment:  0.1214109926168991
+Device set to use cuda:0
+RS_2021-09.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.14683734939759036
+neutral sentiment: 0.7243975903614458
+positive sentiment:  0.12876506024096385
+Device set to use cuda:0
+RS_2021-04.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.0950191570881226
+neutral sentiment: 0.7586206896551724
+positive sentiment:  0.14636015325670498
+Device set to use cuda:0
+RS_2021-06.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.11235059760956176
+neutral sentiment: 0.7768924302788844
+positive sentiment:  0.11075697211155379
+RS_2021-08.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.11815336463223787
+neutral sentiment: 0.7621283255086072
+positive sentiment:  0.11971830985915492
+Device set to use cuda:0
+Device set to use cuda:0
+RS_2021-03.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.10340041637751561
+neutral sentiment: 0.7598889659958362
+positive sentiment:  0.13671061762664816
+Device set to use cuda:0
+RS_2021-05.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.10419790104947527
+neutral sentiment: 0.7638680659670165
+positive sentiment:  0.13193403298350825
+Device set to use cuda:0
+RS_2021-02.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.1070460704607046
+neutral sentiment: 0.760840108401084
+positive sentiment:  0.13211382113821138
+RS_2021-12.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.1
+neutral sentiment: 0.7980392156862746
+positive sentiment:  0.10196078431372549
+Device set to use cuda:0
+Device set to use cuda:0
+RS_2022-03.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.09455587392550144
+neutral sentiment: 0.8137535816618912
+positive sentiment:  0.09169054441260745
+Device set to use cuda:0
+RS_2022-02.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.12649164677804295
+neutral sentiment: 0.8233890214797136
+positive sentiment:  0.050119331742243436
+Device set to use cuda:0
+RS_2022-01.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.1130952380952381
+neutral sentiment: 0.8154761904761905
+positive sentiment:  0.07142857142857142
+RS_2022-04.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.14697406340057637
+neutral sentiment: 0.7752161383285303
+positive sentiment:  0.07780979827089338
+Device set to use cuda:0
+Device set to use cuda:0
+RS_2022-05.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.138328530259366
+neutral sentiment: 0.8213256484149856
+positive sentiment:  0.040345821325648415
+Device set to use cuda:0
+RS_2022-06.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.08734939759036145
+neutral sentiment: 0.8433734939759037
+positive sentiment:  0.06927710843373494
+Device set to use cuda:0
+RS_2022-07.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.12753623188405797
+neutral sentiment: 0.8115942028985508
+positive sentiment:  0.06086956521739131
+Device set to use cuda:0
+RS_2022-08.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.0962962962962963
+neutral sentiment: 0.8222222222222222
+positive sentiment:  0.08148148148148149
+Device set to use cuda:0
+RS_2022-09.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.0987012987012987
+neutral sentiment: 0.812987012987013
+positive sentiment:  0.08831168831168831
+Device set to use cuda:0
+RS_2022-10.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.14984709480122324
+neutral sentiment: 0.7951070336391437
+positive sentiment:  0.05504587155963303
+Device set to use cuda:0
+RS_2021-01.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.1251246261216351
+neutral sentiment: 0.7522432701894317
+positive sentiment:  0.1226321036889332
+Device set to use cuda:0
+RS_2022-11.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.11042944785276074
+neutral sentiment: 0.8374233128834356
+positive sentiment:  0.05214723926380368
+Device set to use cuda:0
+RS_2021-12.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.10980036297640654
+neutral sentiment: 0.76497277676951
+positive sentiment:  0.12522686025408347
+Device set to use cuda:0
+RS_2022-02.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.1218369259606373
+neutral sentiment: 0.7272727272727273
+positive sentiment:  0.15089034676663543
+Device set to use cuda:0
+RS_2022-06.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.11875589066918002
+neutral sentiment: 0.763430725730443
+positive sentiment:  0.117813383600377
+RS_2022-05.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.125
+neutral sentiment: 0.7455035971223022
+positive sentiment:  0.12949640287769784
+Device set to use cuda:0
+Device set to use cuda:0
+RS_2022-01.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.11451612903225807
+neutral sentiment: 0.7354838709677419
+positive sentiment:  0.15
+RS_2022-12.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.12968299711815562
+neutral sentiment: 0.7953890489913544
+positive sentiment:  0.07492795389048991
+Device set to use cuda:0
+RS_2022-04.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.11979913916786226
+neutral sentiment: 0.7596843615494978
+positive sentiment:  0.12051649928263988
+RS_2022-07.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.12720306513409962
+neutral sentiment: 0.7394636015325671
+positive sentiment:  0.13333333333333333
+RS_2022-10.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.13267148014440433
+neutral sentiment: 0.7066787003610109
+positive sentiment:  0.16064981949458484
+RS_2022-08.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.13379737045630316
+neutral sentiment: 0.7061098221191029
+positive sentiment:  0.16009280742459397
+RS_2022-09.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.1365814696485623
+neutral sentiment: 0.7156549520766773
+positive sentiment:  0.1477635782747604
+RS_2023-01.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.09706546275395034
+neutral sentiment: 0.8510158013544018
+positive sentiment:  0.05191873589164785
+Device set to use cuda:0
+RS_2023-03.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.08781869688385269
+neutral sentiment: 0.8215297450424929
+positive sentiment:  0.0906515580736544
+Device set to use cuda:0
+RS_2023-02.zstscraped.jsonr/brandonsanderson and r/Stormlight_Archive
+
+negative sentiment:  0.10410958904109589
+neutral sentiment: 0.8356164383561644
+positive sentiment:  0.06027397260273973
+Device set to use cuda:0
+RS_2022-03.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.11583659764969222
+neutral sentiment: 0.748740906547286
+positive sentiment:  0.13542249580302182
+RS_2022-11.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.11247637051039698
+neutral sentiment: 0.7117202268431002
+positive sentiment:  0.17580340264650285
+RS_2022-12.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.10204081632653061
+neutral sentiment: 0.7464678178963893
+positive sentiment:  0.15149136577708006
+RS_2023-02.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.13727359389895138
+neutral sentiment: 0.6796949475691134
+positive sentiment:  0.18303145853193517
+RS_2023-03.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.1252973830293418
+neutral sentiment: 0.7034099920697859
+positive sentiment:  0.17129262490087233
+RS_2023-01.zstscraped.jsonr/KingkillerChronicle and r/PatrickRothfuss
+
+negative sentiment:  0.1075050709939148
+neutral sentiment: 0.7275185936443543
+positive sentiment:  0.1649763353617309
