@@ -14,8 +14,6 @@ COPY requirements.txt /app/requirements.txt
 # Install Python dependencies from requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-RUN chmod -R 750 /
-
 # Set default command (optional)
 #CMD ["/bin/bash"]
 
