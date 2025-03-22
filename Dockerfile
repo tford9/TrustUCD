@@ -1,7 +1,7 @@
 FROM  nvcr.io/nvidia/rapidsai/base:25.02-cuda12.8-py3.12
 
 SHELL ["/bin/sh", "-c"]
-
+USER root
 RUN groupadd -g 50038 faislab && \
     useradd -u 260433 -g faislab -m twford
 
