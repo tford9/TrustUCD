@@ -9,8 +9,7 @@ COPY requirements.txt /app/requirements.txt
 # Install Python dependencies from requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-USER root
-RUN /bin/bash chmod -R 777 /
+RUN /bin/bash chmod -R 755 /
 
 # Set default command (optional)
 #CMD ["/bin/bash"]
