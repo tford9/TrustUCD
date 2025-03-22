@@ -21,8 +21,9 @@ spec:
           cpu: "16"
           nvidia.com/gpu: '1'
       volumeMounts:
-        - name: home
-          mountPath: "/home/"
+      - name: home
+        mountPath: "/home/"
+      command: ["/bin/sh"]
       stdin: true
       tty: true
   imagePullSecrets:
