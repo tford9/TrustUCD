@@ -10,7 +10,7 @@ COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 USER root
-RUN chmod -R 777 /
+RUN /bin/bash chmod -R 777 /
 
 # Set default command (optional)
 #CMD ["/bin/bash"]
