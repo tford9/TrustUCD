@@ -10,7 +10,7 @@ spec:
   containers:
     - name: trust-ucd
       image: ghcr.io/tford9/trustucd:master  # image name
-      imagePullPolicy: Always
+      imagePullPolicy: IfNotPresent
       resources:
         requests:
           memory: "32Gi"
@@ -21,15 +21,15 @@ spec:
           cpu: "16"
           nvidia.com/gpu: '1'
       volumeMounts:
-      - name: home
-        mountPath: "/home/"
+      - name: code
+        mountPath: "/app/"
       command: ["/bin/sh"]
       stdin: true
       tty: true
   imagePullSecrets:
     - name: ghcr-secret
   volumes:
-  - name: home
+  - name: code
     nfs:
       server: 128.239.56.166
       path: /sciclone/home/twford/repos/reddit

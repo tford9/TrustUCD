@@ -1,4 +1,4 @@
-FROM rapidsai/base:25.04a-cuda12.8-py3.10-amd64
+FROM  nvcr.io/nvidia/rapidsai/base:25.02-cuda12.8-py3.12
 
 # Set the working directory inside the container
 WORKDIR /app
