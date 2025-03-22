@@ -5,8 +5,6 @@ USER root
 RUN groupadd -g 50038 faislab && \
     useradd -u 260433 -g faislab -m twford
 
-RUN apt-get install sudo
-
 RUN usermod -aG sudo twford
 
 # Set the working directory inside the container
