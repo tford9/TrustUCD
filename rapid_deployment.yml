@@ -23,12 +23,11 @@ metadata:
     app: rapids-notebook
 spec:
   securityContext:
-    runAsUser: 260433 # run id command in terminal to get your UID
-    runAsGroup: 50038
-    fsGroup: 1134
+    fsGroup: 0
   containers:
     - name: rapids-notebook
       image: "nvcr.io/nvidia/rapidsai/notebooks:25.02-cuda12.8-py3.12"
+      command: [ "bash", "-c", "/home/rapids/entrypoint.sh" ]
       resources:
         limits:
           nvidia.com/gpu: 1

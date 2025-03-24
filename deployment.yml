@@ -6,11 +6,12 @@ metadata:
 spec:
   securityContext:
     runAsUser: 260433
-    runAsGroup: 50038
+#    runAsGroup: 0
+    fsGroup: 0
   containers:
     - name: trust-ucd
       image: ghcr.io/tford9/trustucd:master  # image name
-      imagePullPolicy: IfNotPresent
+      imagePullPolicy: Always
       resources:
         requests:
           memory: "32Gi"

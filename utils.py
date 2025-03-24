@@ -5,7 +5,7 @@ import networkx as nx
 import cugraph as cnx
 
 from transformers import pipeline
-from tqdm.notebook import tqdm
+from tqdm import tqdm
 
 REDDIT_DATA_PATH = "data/"  # Replace with your directory path
 
@@ -105,15 +105,19 @@ def get_largest_connected_component(G):
 
 def compute_graph_measures(G):
     """Compute various network measures with tqdm tracking progress."""
-    measures = {}
-    measures["degree_centrality"] = cnx.degree_centrality(G)
-    measures["betweenness_centrality"] = cnx.betweenness_centrality(G)
-    # measures["closeness_centrality"] = cnx.closeness_centrality(G)
-    measures["eigenvector_centrality"] = cnx.eigenvector_centrality(G)
-    measures["pagerank"] = cnx.pagerank(G)
-    hubs, authorities = cnx.hits(G)
-    measures["hubs"] = hubs
-    measures["authorities"] = authorities
+    import warnings
+
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+
+        measures = {}
+        measures["degree_centrality"] = cnx.degree_centrality(G)
+        measures["betweenness_centrality"] = cnx.betweenness_centrality(G)
+        # measures["eigenvector_centrality"] = cnx.eigenvector_centrality(G)
+        measures["pagerank"] = cnx.pagerank(G)
+        hubs, authorities = nx.hits(G)
+        measures["hubs"] = hubs
+        measures["authorities"] = authorities
 
     return measures
 
