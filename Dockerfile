@@ -17,11 +17,11 @@ COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 USER root
-RUN chmod -R 755 /home/
-USER root
-RUN chmod -R 755 /opt/
-USER root
-RUN chmod -R 755 /bin/
+RUN chown -R twford:faislab /
+#USER root
+RUN #chmod -R 755 /opt/
+#USER root
+#RUN chmod -R 755 /bin/
 
 # Set default command (optional)
 #CMD ["/bin/bash"]
