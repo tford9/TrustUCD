@@ -19,7 +19,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 USER root
 RUN chmod -R 775 /home/
 USER root
-RUN chmod -R 775 /opt/conda/bin
+RUN chmod -R 775 /opt/conda/
 USER root
 RUN chmod -R 775 /usr/local/
 #USER root
@@ -34,6 +34,7 @@ USER root
 RUN chmod -R 775 /sbin
 USER root
 RUN chmod -R 775 /bin
+
 
 
 # Set default command (optional)
