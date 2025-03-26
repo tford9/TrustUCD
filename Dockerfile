@@ -1,4 +1,4 @@
-FROM  nvcr.io/nvidia/rapidsai/base:25.02-cuda12.8-py3.12
+FROM  nvcr.io/nvidia/rapidsai/base:25.02-cuda12.0-py3.12
 
 SHELL ["/bin/sh", "-c"]
 USER root
@@ -17,24 +17,10 @@ COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 USER root
-RUN chmod -R 775 /home/
-USER root
-RUN chmod -R 775 /opt/conda/
-USER root
-RUN chmod -R 775 /usr/local/
-#USER root
-RUN #chmod -R 775 /usr/local/cuda/bin
-#USER root
-RUN #chmod -R 775 /usr/local/sbin
-USER root
-RUN chmod -R 775 /usr/sbin
-USER root
-RUN chmod -R 775 /usr/bin
-USER root
-RUN chmod -R 775 /sbin
-USER root
-RUN chmod -R 775 /bin
-
+RUN chmod -R 775 /home/ && chmod -R 775 /opt/conda/ && \
+    chmod -R 775 /opt/conda/ && chmod -R 775 /usr/local/ && \
+    chmod -R 775 /usr/sbin  && chmod -R 775 /usr/bin && chmod -R 775 /sbin && \
+    chmod -R 775 /bin
 
 
 # Set default command (optional)
