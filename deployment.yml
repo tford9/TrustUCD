@@ -10,7 +10,7 @@ spec:
     fsGroup: 0
   containers:
     - name: trust-ucd
-      image: ghcr.io/tford9/trustucd:master  # image name
+      image: twford/fais_lab  # image name
       imagePullPolicy: Always
       resources:
         requests:
@@ -24,7 +24,7 @@ spec:
       volumeMounts:
       - name: code
         mountPath: "/app/"
-      command: ["/bin/sh"]
+#      command: [""]
       stdin: true
       tty: true
   imagePullSecrets:
